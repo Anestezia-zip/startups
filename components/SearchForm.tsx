@@ -5,11 +5,11 @@ import { Search } from "lucide-react";
 const SearchForm = async ({ query }: { query?:string }) => {
 
   return (
-    <Form action="/" className="search-form">
+    <Form action="/" scroll={false} className="search-form">
       <input 
         type="text" 
         name="query" 
-        defaultValue=""
+        defaultValue={query}
         className="search-input"
         placeholder="Search startups"
       />

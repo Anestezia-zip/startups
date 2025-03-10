@@ -1,4 +1,5 @@
 import type {Config} from "tailwindcss";
+import { DEFAULT_CIPHERS } from "tls";
 
 const config: Config = {
 	darkMode: ["class"],
@@ -29,6 +30,12 @@ const config: Config = {
 					"100": "#F7F7F7",
 					DEFAULT: "#FFFFFF",
 				},
+				gray: {
+					"100": "#F9F8F8",
+				},
+				darkBlue: {
+					DEFAULT: "#274C5B"
+				}
 			},
 			fontFamily: {
 				"work-sans": ["var(--font-work-sans)"],

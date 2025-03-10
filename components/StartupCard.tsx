@@ -26,7 +26,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
 
         <section>
           <Link href={`/startup/${_id}`}>
-            <h3 className="text-26-semibold line-clamp-1">{title}</h3>
+            <h3 className="startup-card_title">{title}</h3>
           </Link>
 
           <Link href={`/startup/${_id}`}>

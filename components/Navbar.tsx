@@ -33,6 +33,7 @@ const Navbar = async () => {
 
                   <Link href={`/user/${session?.id}`}>
                     <span>{session?.user?.name}</span>
+                    <Image src={session?.user?.image} height={48} width={48} alt='Avatar'/>
                   </Link>
                 </>
               ) : (
